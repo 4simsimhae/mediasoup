@@ -51,7 +51,7 @@ app.use(
             'https://simsimhae.store',
             'http://localhost:3000',
             'https://front-black-delta.vercel.app',
-            'https://testmedia.vercel.app',
+            'https://testmediafinal.vercel.app/',
         ],
         credentials: true,
     })
@@ -63,7 +63,7 @@ const io = require('socket.io')(httpsServer, {
             'https://simsimhae.store',
             'http://localhost:3000',
             'https://front-black-delta.vercel.app',
-            'https://testmedia.vercel.app',
+            'https://testmediafinal.vercel.app/',
         ],
         credentials: true,
     },
@@ -81,7 +81,7 @@ app.use(
         cookie: {
             // domain: 'http://localhost:3000',
             // domain: 'https://front-black-delta.vercel.app',
-            domain: 'https://testmedia.vercel.app',
+            domain: 'https://testmediafinal.vercel.app/',
             path: '/',
             secure: false,
             httpOnly: false,
